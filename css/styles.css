@@ -10,8 +10,7 @@ body {
 }
 
 h1 {
-  color: #9D9076;
-  /* color: #66BFBF; */
+  color: #6F90AE;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
@@ -58,13 +57,16 @@ a:hover {
 
 }
 .top-container {
-  background-image: linear-gradient(to bottom right, #856B68, #6F90AE );
-  /* background-color: #856B68; /*#6F90AE; */ */
   margin-bottom: 50px;
   padding-top: 80px;
   position: relative;
-
+  background-image: url('../images/my_terminal.png'), url('../images/my_atom.png');
+  background:
+    linear-gradient(#856B68 10%, #9D9076 90%),
+    linear-gradient(to right, #181A1E 10%, #6F90AE 90%);
+  background-blend-mode: screen, difference, lighten;
 }
+
 
 .main-nav {
   padding-bottom: 30px;
@@ -143,6 +145,10 @@ a:hover {
 
 .bottom-container {
   background-image: linear-gradient(to top left, #856B68, #6F90AE );
+  background:
+    linear-gradient(#856B68 10%, #9D9076 90%),
+    linear-gradient(to right, #181A1E 10%, #6F90AE 90%);
+  background-blend-mode: screen, difference, lighten;
   padding: 50px 0 20px;
 }
 
