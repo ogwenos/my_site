@@ -33,12 +33,17 @@ p {
   line-height: 2;
 }
 
+<<<<<<< HEAD
 hr {
   border: 7px dotted #9D9076;
+=======
+/* hr {
+  border: 6px dotted #9D9076;
+>>>>>>> e8e72ed823eac8c84d5d1dcefca56269afa30958
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
-}
+} */
 
 a {
   color: #181A1E;
