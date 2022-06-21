@@ -1,7 +1,6 @@
 
 
 body {
-  -webkit-font-smoothing: antialiased;
   color: #40514E;
   margin: 0;
   text-align: center;
@@ -60,7 +59,7 @@ a:hover {
   margin-bottom: 50px;
   padding-top: 80px;
   position: relative;
-  background-image: url('../images/my_terminal.png'), url('../images/my_atom.png');
+  /* background-image: url('../images/my_terminal.png'), url('../images/my_atom.png'); */
   background:
     linear-gradient(#856B68 10%, #9D9076 90%),
     linear-gradient(to right, #181A1E 10%, #6F90AE 90%);
@@ -144,7 +143,6 @@ a:hover {
 }
 
 .bottom-container {
-  background-image: linear-gradient(to top left, #856B68, #6F90AE );
   background:
     linear-gradient(#856B68 10%, #9D9076 90%),
     linear-gradient(to right, #181A1E 10%, #6F90AE 90%);
