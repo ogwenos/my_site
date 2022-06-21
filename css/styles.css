@@ -1,3 +1,153 @@
-body{
 
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+  color: #9D9076;
+  /* color: #66BFBF; */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #181A1E;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: 6px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #181A1E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #9D9076;
+}
+
+.intro{
+  margin: auto;
+  width: 30%;
+
+}
+.top-container {
+  background-image: linear-gradient(to bottom right, #856B68, #6F90AE );
+  /* background-color: #856B68; /*#6F90AE; */ */
+  margin-bottom: 50px;
+  padding-top: 80px;
+  position: relative;
+
+}
+
+.main-nav {
+  padding-bottom: 30px;
+  transition: 2s all ease;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+/* Style the links inside the navigation bar */
+.main-nav a {
+  float: auto;
+  color: #181A1E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15%;
+}
+
+/* Change the color of links on hover */
+.main-nav a:hover {
+  background-color: #856B68;
+  color: black;
+}
+
+
+.middle-container{
+  margin: 100px 0;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+
+}
+
+.skills {
+  margin-top: 30px;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+
+}
+
+.code-cs1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-cs2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.email-link{
+  color: #181A1E;
+  border-radius: 15%;
+  background-color: transparent;
+  display: inline-block;
+  padding: 1.25rem 1.75rem;
+  cursor: pointer;
+  /* line-height: 1; */
+  border: 1px solid #181A1E;
+}
+
+.bottom-container {
+  background-image: linear-gradient(to top left, #856B68, #6F90AE );
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
