@@ -64,6 +64,8 @@ a:hover {
     linear-gradient(#856B68 10%, #9D9076 90%),
     linear-gradient(to right, #181A1E 10%, #6F90AE 90%);
   background-blend-mode: screen, difference, lighten;
+  height: 100%;
+  width: 100%;
 }
 
 .main-nav {
